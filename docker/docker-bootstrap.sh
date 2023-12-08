@@ -59,7 +59,7 @@ case "${1}" in
     ;;
   app-gunicorn)
     echo "Starting web app..."
-    /usr/bin/run-server.sh
+    /app/docker/run-server.sh
     ;;
   *)
     echo "Unknown Operation!!!"

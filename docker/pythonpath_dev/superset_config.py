@@ -113,3 +113,6 @@ try:
     )
 except ImportError:
     logger.info("Using default Docker config...")
+
+
+SECRET_KEY = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
